@@ -1,0 +1,26 @@
+{
+  "name": "remark-mdx-frontmatter-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-nk/remark-mdx-frontmatter-nextjs.git"
+  },
+  "keywords": [],
+  "author": "Julien Barbay <julien.barbay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-nk/remark-mdx-frontmatter-nextjs/issues"
+  },
+  "homepage": "https://github.com/y-nk/remark-mdx-frontmatter-nextjs#readme",
+  "dependencies": {
+    "acorn": "^8.7.0",
+    "js-yaml": "^4.1.0",
+    "toml": "^3.0.0"
+  }
+}
