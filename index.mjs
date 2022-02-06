@@ -7,9 +7,9 @@ const getValue = (node) => {
   const { type, value } = node;
 
   if (type === "yaml") {
-    return load(value);
+    return parseYaml(value);
   } else if (node.type === "toml") {
-    return parse(value);
+    return parseToml(value);
   }
 };
 
